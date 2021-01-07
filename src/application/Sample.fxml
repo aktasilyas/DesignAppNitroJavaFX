@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <AnchorPane fx:id="pane1" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="600.0" style="-fx-background-color: #1b3cf8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="243.0" layoutY="85.0" text="Slide 1 title" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="121.0" prefHeight="53.0" prefWidth="212.0" text="looooooooooooooooooooooooooooooooooooooooooooooooooong Description" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" layoutX="215.0" layoutY="234.0" prefHeight="222.0" prefWidth="171.0" style="-fx-background-color: #fff; -fx-border-width: 5px; -fx-border-color: #00000017;" text="Slide 1" textAlignment="CENTER" textFill="#838383">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="600.0" style="-fx-background-color: #029365;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="243.0" layoutY="85.0" text="Slide 2 title" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="121.0" prefHeight="53.0" prefWidth="212.0" text="looooooooooooooooooooooooooooooooooooooooooooooooooong Description" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" layoutX="215.0" layoutY="234.0" prefHeight="222.0" prefWidth="171.0" style="-fx-background-color: #fff; -fx-border-width: 5px; -fx-border-color: #00000017;" text="Slide 2" textAlignment="CENTER" textFill="#838383">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="600.0" style="-fx-background-color: #ff7272;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="243.0" layoutY="85.0" text="Slide 3 title" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="121.0" prefHeight="53.0" prefWidth="212.0" text="looooooooooooooooooooooooooooooooooooooooooooooooooong Description" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+            <Label alignment="CENTER" layoutX="215.0" layoutY="234.0" prefHeight="222.0" prefWidth="171.0" style="-fx-background-color: #fff; -fx-border-width: 5px; -fx-border-color: #00000017;" text="Slide 3" textAlignment="CENTER" textFill="#838383">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="nextaction" buttonType="RAISED" layoutX="423.0" layoutY="556.0" onAction="#nextAction" prefHeight="40.0" prefWidth="48.0" style="-fx-background-color: #00000017; -fx-background-radius: 50px;" text="&gt;" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="backaction" buttonType="RAISED" layoutX="106.0" layoutY="556.0" onAction="#backAction" prefHeight="40.0" prefWidth="48.0" style="-fx-background-color: #00000017; -fx-background-radius: 50px;" text="&lt;" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="countLabel" alignment="CENTER" layoutX="167.0" layoutY="570.0" prefHeight="17.0" prefWidth="246.0" text="1/3" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
